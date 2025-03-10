@@ -1,0 +1,54 @@
+/* 
+CSS animations allow you to animate the transition of an element's properties over time. 
+You can control the animation's duration, timing function, delay, iteration count, direction, and fill mode. 
+Keyframes are used to define the styles at various points during the animation. 
+In this example, we have two animations applied to the .box element: 
+1. harryKaAnimation changes the background color from red to yellow.
+2. harry2 rotates the element at different degrees.
+*/
+
+.container{
+    background-color: rgb(9, 106, 106);
+    height: 80vh;
+    width: 30vw;
+}
+
+.box{
+    width: 34px;
+    height: 45px; 
+    /* Applying multiple animations to the box */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: harryKaAnimation 2s ease-in-out 3s 1, 
+               harry2 2s ease-in-out 3s 1;
+}
+
+/* Keyframes define the styles for the animation at various points */
+@keyframes harryKaAnimation {
+    /* The animation will change the background color from red to yellow */
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: yellow; 
+    }
+}
+
+/* Keyframes for the second animation */
+@keyframes harry2 {
+    /* The animation will rotate the element at different degrees */
+    0%{
+        transform: rotate(100deg);
+    }
+    20%{
+        transform: rotate(200deg);
+    }
+    50%{
+        transform: rotate(220deg);
+    }
+    80%{
+        transform: rotate(300deg);
+    }
+    100%{
+        transform: rotate(310deg);
+    }
+}
