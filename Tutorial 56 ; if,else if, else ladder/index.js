@@ -22,7 +22,7 @@ if (age == 18) {
     console.log("You can drive");
 }
 
-else if (age == 0) {
+else if (age == 1) {
     console.log("Are you kidding?")
 }
 
