@@ -1,0 +1,8 @@
+li{
+    list-style-type: "🔥";
+    border: 2px solid black;
+    background-color: rgb(241, 239, 107);
+    list-style-position: inside;
+    /* list-style-image: url(https://ask.libreoffice.org/uploads/asklibo/original/3X/3/5/35664d063435f940bda4cb3bb31ea0a6c5fed2f4.gif); */
+    text-align: center;
+}

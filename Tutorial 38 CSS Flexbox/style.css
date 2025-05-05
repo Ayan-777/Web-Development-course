@@ -1,0 +1,43 @@
+.container {
+    border: 2px solid red; /* Adds a red border around the container for visibility */
+    display: flex; /* Enables Flexbox layout */
+    height: 80vh; /* Sets the height of the container to 80% of the viewport height */
+    /* justify-content: center;  Centers the items horizontally inside the container */
+    align-items: center; /* Centers the items vertically inside the container */
+    /* flex-direction: column;  Arranges items in a column direction */
+    flex-wrap: wrap; /* Allows items to wrap to the next line if there is not enough space */
+    /* align-content: flex-start;  Aligns the rows of wrapped items at the start */
+    /* There is no justify-items in Flexbox; justify-content is used for horizontal alignment */
+    flex-flow: row wrap; /* Shorthand for setting both flex-direction and flex-wrap */
+    /* gap: 30px;  Adds a uniform gap between rows and columns */
+    /* row-gap: 40px;  Adds a gap of 40px between rows */
+    /* column-gap: 10px;  Adds a gap of 10px between columns */
+    gap: 40px 10px; /* Shorthand for setting row-gap and column-gap together */
+}
+
+.item {  
+    /* flex-grow: 1;  Specifies how much the item will grow relative to others */
+    height: 92px; /* Sets a fixed height for the items */
+    width: 92px; /* Sets a fixed width for the items */
+    border: 2px solid black; /* Adds a black border around each item */
+    /* margin: 4px;  Adds a margin around the items */
+    background-color: blueviolet; /* Sets the background color of the items */
+}
+
+.order-1 {
+    order: 1; /* Controls the order of the item in the flex container */
+}
+
+.order-2 {
+    order: 2; /* Controls the order of the item in the flex container */
+}
+
+.order-3 {
+    order: 3; /* Controls the order of the item in the flex container */
+}
+
+.item1 {  
+    /* flex-grow: 2;  Makes the item grow twice as much as others if space is available */
+    /* flex-shrink: 2;  Allows the item to shrink twice as much as others if space is limited */
+    align-self: flex-end; /* Aligns this specific item at the end of the container's cross-axis */
+}

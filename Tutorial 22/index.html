@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    html{
+        font-size: 12px;
+    }
+    .box{
+        border: 2px solid black;
+        width: 80vw;
+        box-sizing: border-box;
+        margin: auto;
+        background-color: aquamarine;
+        font-size: 40px;
+
+    }
+
+    .container{
+        border: 2px solid black;
+        width: 80vw;
+        height: 50vh;
+        box-sizing: border-box;
+        margin: 25px auto;
+        background-color: aquamarine;
+    }
+    .container > div{
+        font-size: 2em;
+        border : 2px solid red;
+        width: 50%;
+    }
+    .container > div > div{
+        border: 2px solid blue;
+        width: 50%;
+    }
+
+    .mycont{
+        border: 2px solid black;
+        width: 80vw;
+        box-sizing: border-box;
+        margin: 25px auto;
+        font-size: 20px;
+        
+    }
+</style>
+
+<body>
+    <div class="box">
+        This is a box
+    </div>
+    <div class="container">
+        <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi vero consequatur nihil consequuntur officia
+        aperiam mollitia ipsam labore accusamus voluptatum rerum omnis obcaecati autem, sed rem sint laborum alias
+        explicabo numquam recusandae eum cumque expedita, quasi aspernatur. Maxime eius exercitationem unde optio
+        impedit voluptate eveniet.
+        </div>
+        
+
+    </div>
+    <div class="mycont">
+        I am another container
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    border-radius: 15px;
+    width: 350px;
+    padding: 30px;
+    margin: 20px;
+    color: #fff;
+}
+
+.image {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.content {
+    padding: 10px 15px;
+    color: #e0e0e0;
+}
+
+.capsules {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.capsules span {
+    border: 1px solid #ff007f;
+    background: linear-gradient(135deg, #ff007f, #7500f5);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.button {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.button button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #7500f5, #ff007f);
+    color: #fff;
+    font-size: 13px;
+    margin-top: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.button button:hover {
+    background: #fff;
+    color: #7500f5;
+    box-shadow: 0px 0px 10px #ff007f, 0px 0px 20px #7500f5;
+}
