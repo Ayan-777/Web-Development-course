@@ -19,7 +19,7 @@ comment
 */
 
 if (age == 18) {
-    console.log("You can drive");
+    console.log("You can drive, you are an adult");;
 }
 
 else if (age == 1) {
