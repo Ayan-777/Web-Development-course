@@ -96,7 +96,7 @@ function App() {
           </div>
           })}
          </div>
-        
+        console.log(todos)
        </div>
     </>
   )
